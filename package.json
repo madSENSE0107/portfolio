@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tailwindcss build ./src/styles.css -o ./Build/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
