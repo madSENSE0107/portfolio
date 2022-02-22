@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="./output.css" />
     <title>saptarsi-chakrabarty</title>
   </head>
-  <body
-    class="bg-contain bg-center mx-5 text-gray-800"
-    style="background-image: url(./images/Animated\ Shape\ 2.svg)"
-  >
+  <body class="">
     <!-- div covering the entire page -->
 
-    <div class="font-sans flex flex-col justify-center content-center md:m-11 md:p-11 md:leading-relaxed">
+    <div class="font-serif  flex flex-col justify-center content-center m-11  md:m-30 md:px-72 md:leading-relaxed">
       <!-- top part -->
       <div
         class="
@@ -21,13 +18,14 @@
           mb-16
           md:mb-16 md:pt-8
           flex flex-col
-          place-content-center
-          justify-items-center
+          justify-center
+          content-center
+          text-center
         "
       >
         <div>Hi there !</div>
         <div>
-          <div class="mt-3 flex flex-row text-5xl tracking-normal md:text-7xl">
+          <div class="mt-3 flex flex-row justify-center text-5xl tracking-normal md:text-7xl">
             <div>I'm</div>
             <div class="font-semibold pl-5">Saptarsi</div>
           </div>
@@ -40,15 +38,17 @@
         </div>
       </div>
       <!-- projects part -->
-      <div>
+      <div class="flex flex-col justify-center
+      content-center">
         <div class="text-4xl font-bold mb-2 md:text-4xl md:pb-4">Projects</div>
 
-        <div class="flex flex-col flex-wrap md:flex-row">
+        <div class="flex flex-col flex-wrap justify-center
+        content-center md:flex-row">
           <!-- project 5 -->
-          <div class="bg-yellow-300 border-2 rounded-lg w-64 p-6 mb-3 md:ml-3">
-            <div class="text-xl font-semibold mb-1 hover:text-gray-200">
+          <div class=" border-2 border-stone-900 rounded-lg w-64 p-6 mb-3 md:ml-3">
+            <div class="text-xl font-semibold mb-1 hover:text-stone-200">
               <a
-                class="flex flex-row hover:text-gray-200"
+                class="flex flex-row hover:text-stone-200"
                 href="https://sounds-of-calcutta.netlify.app/"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -72,17 +72,17 @@
               <li class="mb-2">TailwindCss</li>
 
               <a
-                class="bg-gray-900 text-gray-100 p-2 rounded-lg"
+                class="bg-stone-700 text-stone-100 p-2 rounded-lg"
                 href="https://github.com/madSENSE0107/sounds_of_calcutta"
                 >github</a
               >
             </ul>
           </div>
           <!-- project 4 -->
-          <div class="bg-gray-50 border-2 w-64 rounded-lg p-6 mb-3 md:ml-3 ">
-            <div class="text-xl font-semibold mb-1 hover:text-gray-200">
+          <div class=" border-2 border-stone-900 w-64 rounded-lg p-6 mb-3 md:ml-3 ">
+            <div class="text-xl font-semibold mb-1 hover:text-stone-200">
               <a
-                class="flex flex-row hover:text-gray-200"
+                class="flex flex-row hover:text-stone-200"
                 href="https://100sofreview.vercel.app/"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +106,7 @@
               <li class="mb-2">TailwindCss</li>
 
               <a
-                class="bg-gray-600 text-gray-100 p-2 rounded-lg"
+                class="bg-stone-700 text-stone-100 p-2 rounded-lg"
                 href="https://github.com/madSENSE0107/100sofReview"
                 >github</a
               >
@@ -114,10 +114,10 @@
           </div>
 
           <!-- Project 3 -->
-          <div class="bg-blue-200 border-2 w-64 rounded-lg p-6 mb-3 md:ml-3">
-            <div class="text-xl font-semibold mb-1 hover:text-gray-200">
+          <div class="border-2 border-stone-900 w-64 rounded-lg p-6 mb-3 md:ml-3">
+            <div class="text-xl font-semibold mb-1 hover:text-stone-200">
               <a
-                class="flex flex-row hover:text-gray-200"
+                class="flex flex-row hover:text-stone-200"
                 href="https://expense-tracker-basic-01.netlify.app/"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +141,7 @@
               <li class="mb-2">Axios</li>
 
               <a
-                class="bg-gray-500 text-gray-50 p-2 rounded-lg"
+                class="bg-stone-700 text-stone-50 p-2 rounded-lg"
                 href="https://github.com/madSENSE0107/React_expenseTracker"
                 >github</a
               >
@@ -150,11 +150,11 @@
           </div>
           <!-- project 2 -->
           <div
-            class="bg-amber-600 border-2  w-64 text-white rounded-lg p-6 mb-3 md:ml-3"
+            class=" border-2  w-64 border-stone-900  rounded-lg p-6 mb-3 md:ml-3"
           >
             <div class="text-xl font-semibold mb-1">
               <a
-                class="flex flex-row hover:text-gray-200"
+                class="flex flex-row hover:text-stone-200"
                 href="https://gifgenerator-react.netlify.app/"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -178,49 +178,14 @@
               <!-- <li>custom hooks to organize code</li> -->
 
               <a
-                class="bg-gray-100 text-gray-900 p-2 rounded-lg"
+                class="bg-stone-700 text-stone-50 p-2 rounded-lg"
                 href="https://github.com/madSENSE0107/RandomGifReact"
-                >github</a
-              >
+                >github</a>
               <!-- <li><a href="https://elastic-wozniak-0ee007.netlify.app/">Random GIF Generator</a></li> -->
             </ul>
           </div>
           <!-- project 1 -->
-          <div
-            class="bg-gray-800 border-2 w-64  text-white rounded-lg p-6 mb-3 md:ml-3"
-          >
-            <div class="text-xl font-semibold mb-1 hover:text-gray-200">
-              <a
-                class="flex flex-row hover:text-gray-200"
-                href="https://gallant-khorana-2e6198.netlify.app/"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 pr-1"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
-                  /></svg
-                >Quote Generator</a
-              >
-            </div>
-            <ul class="list-disc list-inside">
-              <li>ReactJs</li>
-              <li class="mb-2">Axios</li>
-
-              <a
-                class="bg-gray-100 text-gray-900 p-2 rounded-lg"
-                href="https://github.com/madSENSE0107/dadJokeseReact"
-                >github</a
-              >
-              <!-- <li><a href="https://gallant-khorana-2e6198.netlify.app/">Quote Generator</a></li> -->
-            </ul>
-          </div>
+          
         </div>
       </div>
       <!-- about me  -->
@@ -243,21 +208,21 @@
         <ul class="flex md:flex-row">
           <li>
             <a
-              class="hover:text-gray-500"
+              class="hover:text-stone-500"
               href="https://github.com/madSENSE0107"
               >Github</a
             >
           </li>
           <li>
             <a
-              class="hover:text-gray-500 m-4"
+              class="hover:text-stone-500 m-4"
               href="https://www.linkedin.com/in/saptarsi-chakrabarty/"
               >Linkedin</a
             >
           </li>
           <li>
             <a
-              class="hover:text-gray-500 m-4"
+              class="hover:text-stone-500 m-4"
               href="https://mail.google.com/mail/?view=cm&fs=1&to=saptarsi2000@google.com"
               >Mail</a
             >

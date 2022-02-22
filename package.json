@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.3.0"
-  },
   "devDependencies": {
-    "tailwindcss": "^3.0.0"
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23"
   },
   "scripts": {
-    "build": "tailwindcss build ./src/styles.css -o ./Build/styles.css"
+    "build": "npx tailwindcss -i ./src/input.css -o ./Build/output.css --watch"
   },
   "keywords": [],
   "author": "",
